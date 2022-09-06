@@ -3,12 +3,21 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 25px;
   
   .logo-container {
     height: 100%;
     width: 70px;
-    padding: 25px;
+    text-align: center;
+
+    .logo {
+      font-family: 'Solway', serif;
+      font-weight: 800;
+      font-size: 3rem;
+      height: 100%;
+      width: 70px;
+    }
   }
 
   .nav-links-container {
